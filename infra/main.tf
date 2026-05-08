@@ -1,3 +1,4 @@
+// This Terraform configuration file sets up the AWS provider with the specified region and profile. It also defines the required Terraform version and the AWS provider version
 terraform {
   required_version = ">= 1.0"
   
