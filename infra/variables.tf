@@ -36,3 +36,9 @@ variable "project_name" {
   type        = string
   default     = "foodies"
 }
+// The environment variable is used to differentiate between different stages of your application (e.g., dev, staging, prod). You can set this to any value that makes sense for your workflow. The default is set to "dev" for development purposes
+variable "environment" {
+  description = "The environment for the resources (e.g., dev, staging, prod)"
+  type        = string
+  default     = "dev"
+}
