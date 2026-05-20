@@ -42,3 +42,8 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+variable "instance_type" {
+  description = "EC2 instance type for ASG launch template"
+  type        = string
+  default     = "t3.micro"
+}
